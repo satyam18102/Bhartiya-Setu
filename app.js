@@ -25,6 +25,12 @@ app.get("/login",(req,res)=>{
 app.get("/signup",(req,res)=>{
     res.render("../views/signup.ejs")
 })
+app.get("/map",(req,res)=>{
+    res.render("../views/map2.ejs")
+})
+app.get("/map/go",(req,res)=>{
+    res.render("../views/map.ejs")
+})
 
 app.listen(3232,()=>{
     console.log("Serer started on Port:3232")
