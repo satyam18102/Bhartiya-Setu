@@ -55,7 +55,7 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoic2F0eWFtMzQxIiwiYSI6ImNsenp2cGtxYjFrZnIycXM4b
             id: 'line',
             paint: {
                 'line-color': 'black',
-                'line-width': 5
+                'line-width': 7
             },
             layout: {
                 'line-cap': 'round',
