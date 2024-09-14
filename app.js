@@ -31,6 +31,9 @@ app.get("/map",(req,res)=>{
 app.get("/map/go",(req,res)=>{
     res.render("../views/map.ejs")
 })
+app.get("/blank",(req,res)=>{
+    res.render("../views/blank.ejs")
+})
 
 app.listen(3232,()=>{
     console.log("Serer started on Port:3232")
