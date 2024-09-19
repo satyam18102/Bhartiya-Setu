@@ -51,6 +51,13 @@
           </form>
           
         </div>
+        <div class="navbar-nav ms-auto">
+          <% if(curstat){ %>
+            <form action="/logout">
+              <button class="btn btn-primary login ">Logout</button>
+            </form>
+            <% }else{ %>
+        </div>
         <form action="/login">
           <button type="submit" class="btn btn-primary login">Login</button>
         </form>
@@ -58,6 +65,7 @@
         <form action="/signup">
           <button type="submit" class="btn btn-primary signup">Sign Up</button>
         </form>
+        <% } %>
       </div>
     </div>
   </nav>
